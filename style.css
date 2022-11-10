@@ -1,0 +1,144 @@
+body {
+
+    background: #121139;
+    ;
+    font-family: 'Vollkorn', serif;
+    ;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.content {
+
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}
+
+.title-scale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 100%;
+    background: linear-gradient(263.24deg, #9130F4 20%, #4646F9 77.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.title-safe {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 27px;
+    gap: 10px;
+    width: 140px;
+    height: 18px;
+    color: #FFFFFF;
+    border: 3px solid transparent;
+    border-image: linear-gradient(263.24deg, #9130F4 20%, #4646F9 77.63%);
+    border-image-slice: 1;
+    font-size: 22px;
+}
+
+.buton:hover {
+
+    border: 3px solid #FFFFFF;
+    transition: 1s;
+
+}
+
+.subtitle {
+
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+}
+
+/* credit card */
+
+
+.card-1 {
+
+    width: 619px;
+    height: 359px;
+    background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-1-p {
+
+    display: grid;
+    justify-self: flex-start;
+}
+
+.card-1-p>p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.card-1-p p:first-child {
+
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.54;
+    margin-top: 54px;
+    margin-left: 65px;
+}
+
+.card-1-p p:nth-child(2) {
+
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+
+.card-1-p p:nth-child(3) {
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-top: 54px;
+    margin-left: 70px;
+
+}
+
+.group {
+
+    margin-left: 160px;
+    margin-top: 42px;
+}
+
+
+
+.card-2 {
+
+    height: 290px;
+    width: 223px;
+    background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
+    border-radius: 30px;
+    margin-left: 380px;
+    margin-top: -90px;
+
+}
