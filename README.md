@@ -1,4 +1,4 @@
-# RiseBank -- em desenvolvimento
+# RiseBank -- em desenvolvimento (parte Responsiva)
 Projeto inspirado pela comunidade do Figma
 ## website Gitpages:
 https://edgarvtt.github.io/RiseBank/
