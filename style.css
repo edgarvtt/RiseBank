@@ -1,3 +1,5 @@
+/* Global */
+
 body {
 
     background: #121139;
@@ -11,10 +13,14 @@ a {
     text-decoration: none;
 }
 
+/*Header */
 .logo {
     margin-left: 85px;
     margin-top: 10px;
 }
+
+
+/*conteudo main */
 
 .content {
 
@@ -76,7 +82,7 @@ a {
 
 }
 
-/* credit card */
+/* credit card 1 */
 
 
 .card-1 {
@@ -201,4 +207,55 @@ a {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+}
+
+/* responsivo */
+
+@media(max-width:1335px) {
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .title-scale {
+
+        font-size: 50px;
+    }
+
+    .title-safe {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:1150px) {
+
+    /* .card-1,
+    .card-1-p,
+    .group {
+        display: none;
+    }*/
+
+    .content {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+}
+
+@media (max-width:690px) {
+
+    .card-1 {
+        max-width: 500px;
+        margin-left: 60px;
+    }
+
+    .group {
+        margin-left: 120px;
+    }
+
+    .card-2 {
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
 }
