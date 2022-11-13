@@ -91,6 +91,7 @@ a {
     height: 359px;
     background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
     border-radius: 30px;
+    margin-top: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: -20px -30px 100px 24px #9230f48d;
@@ -147,7 +148,7 @@ a {
     background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
     border-radius: 30px;
     margin-left: 425px;
-    margin-top: -210px;
+    margin-top: -224px;
     box-shadow: -30px -30px 100px 24px #9230f4b0;
 }
 
