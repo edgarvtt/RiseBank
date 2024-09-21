@@ -1,5 +1,6 @@
 # RiseBank -- em desenvolvimento (parte Responsiva)
-Projeto inspirado pela comunidade do Figma
+Projeto inspirado pela comunidade do Figma 
+voltando para trabalhar a parte responsiva
 ## website Gitpages:
 https://edgarvtt.github.io/RiseBank/
 ## link da inspiração de desing:
